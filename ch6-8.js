@@ -79,7 +79,7 @@ function findSum(){
 
 // Word Info
 
-    // console.log("WORD LENGTH: ", word.length);
+    console.log("WORD LENGTH: ", word.length);
 
 let word = String(prompt("Emter a word: "));
 console.log("LENGTH:", word.length);
