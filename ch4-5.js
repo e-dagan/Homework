@@ -31,6 +31,19 @@ function sayHello(firstName1, lastName1) {
 sayHello();
 
 
-// console.log(min(4.5, 5)); // Must show 4.5
-// console.log(min(19, 9)); // Must show 9
-// console.log(min(1, 1));
+let num1 = 0
+let num2= 0
+
+
+function newMin(num1, num2){
+    if num1 > num2{
+        return num2
+    }
+    else{
+        return num1
+    }
+}
+
+console.log(min(4.5, 5)); // Must show 4.5
+console.log(min(19, 9)); // Must show 9
+console.log(min(1, 1));
